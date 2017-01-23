@@ -1,0 +1,2 @@
+# sharpnoteconsulting.github.io
+Homepage
