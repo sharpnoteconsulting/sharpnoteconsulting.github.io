@@ -1,0 +1,79 @@
+/*
+ * Blob image styling
+ */
+ 
+.blob-image {
+  background-image: url(../../img/blob.png);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: border-box;
+  transition: background-size 0.5s;
+  transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+  display: inline-block;
+  width: 450px;
+  height: 450px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.blob-image:hover {
+	background-size: 450px;
+}
+
+.feature-image-idea {
+  background-image: url(../../img/features/idea.png);
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: border-box;
+  transition: background-size 0.5s;
+  transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.feature-image-idea:hover {
+	background-size: 100px;
+}
+
+.feature-image-software {
+  background-image: url(../../img/features/software.png);
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: border-box;
+  transition: background-size 0.5s;
+  transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.feature-image-software:hover {
+	background-size: 100px;
+}
+
+.feature-image-data {
+  background-image: url(../../img/features/data.png);
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: border-box;
+  transition: background-size 0.5s;
+  transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.feature-image-data:hover {
+	background-size: 100px;
+}

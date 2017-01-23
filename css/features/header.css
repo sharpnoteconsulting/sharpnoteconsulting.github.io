@@ -1,0 +1,9 @@
+/*
+ * Header styling
+ */
+ 
+.header {
+  background-color: white !important;
+  height: auto;
+  padding: 40px 15px 20px !important;
+}
