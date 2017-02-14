@@ -77,3 +77,21 @@
 .feature-image-data:hover {
 	background-size: 100px;
 }
+
+.contacts-image {
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-clip: border-box;
+  transition: background-size 0.5s;
+  transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contacts-image:hover {
+	background-size: 80px;
+}

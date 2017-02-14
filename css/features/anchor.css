@@ -1,0 +1,11 @@
+.anchor-dark,.anchor-dark:active,.anchor-dark:focus,.anchor-dark:hover{
+	color: #313447;
+	outline:0;
+	text-decoration:none;
+}
+
+.anchor-dark:focus,.anchor-dark:hover{
+	color: white;
+	outline:0;
+	text-decoration:none;
+}
