@@ -3,22 +3,24 @@
  */
  
 .blob-image {
-  background-image: url(../../img/blob.png);
-  background-size: 400px;
+  background-image: url(../../img/blob-thin.png);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-size: 350px;
   background-repeat: no-repeat;
   background-position: center;
   background-clip: border-box;
   transition: background-size 0.5s;
   transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
   display: inline-block;
-  width: 450px;
-  height: 450px;
+  width: 375px;
+  height: 375px;
   text-decoration: none;
   cursor: pointer;
 }
 
 .blob-image:hover {
-	background-size: 450px;
+	background-size: 375px;
 }
 
 .feature-image-idea {
